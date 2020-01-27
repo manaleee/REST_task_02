@@ -28,7 +28,7 @@ urlpatterns = [
 
 
 	# booking details
-	path('bookings/<int:booking_id>/', views.BookingsDetail.as_view(), name="bookings-details"),
+	path('bookings/<int:booking_id>/', views.BookingsDetail.as_view(), name="booking-details"),
 
 
 	# booking update
